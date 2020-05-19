@@ -8,7 +8,7 @@
           <div
             class="bg-black h-12 w-12 rounded-full act cirlc items-center flex flex-col justify-center"
           >
-            <img src="../../assets/icons/overview_icon.svg" />
+            <img src="../../assets/icons/overview_icon.svg"/>
           </div>
           <div class="act_text flow_text">Overview</div>
         </div>
@@ -91,7 +91,13 @@
                 </td>
                 <td class="px-4 py-2">Electronics, Cover</td>
                 <td class="px-4 py-2">30mm x 60mm x 70mm</td>
-                <td class="px-4 py-2">Adam</td>
+                <td class="px-4 py-2">
+                  <div class="flex items-center justify-center w-12">
+                    <div class="mr-4 ml-4 text-lg t-col">+</div>
+                    <div class="w-2">1</div>
+                    <div class="mr-4 ml-4 text-lg t-col">-</div>
+                  </div>
+                </td>
                 <td class="px-4 py-2">
                   <img src="../../assets/icons/more.svg" width="3%" class="float-right w-1" />
                 </td>
@@ -106,7 +112,13 @@
                 </td>
                 <td class="px-4 py-2">Electronics, Cover</td>
                 <td class="px-4 py-2">30mm x 60mm x 70mm</td>
-                <td class="px-4 py-2">Adam</td>
+                <td class="px-4 py-2">
+                  <div class="flex items-center justify-center w-12">
+                    <div class="mr-4 ml-4 text-lg t-col">+</div>
+                    <div class="w-2">1</div>
+                    <div class="mr-4 ml-4 text-lg t-col">-</div>
+                  </div>
+                </td>
                 <td class="px-4 py-2">
                   <img src="../../assets/icons/more.svg" width="3%" class="float-right w-1" />
                 </td>
@@ -146,7 +158,13 @@
                 </td>
                 <td class="px-4 py-2">Electronics, Cover</td>
                 <td class="px-4 py-2">30mm x 60mm x 70mm</td>
-                <td class="px-4 py-2">Adam</td>
+                <td class="px-4 py-2">
+                  <div class="flex items-center justify-center w-12">
+                    <div class="mr-4 ml-4 text-lg t-col">+</div>
+                    <div class="w-2">1</div>
+                    <div class="mr-4 ml-4 text-lg t-col">-</div>
+                  </div>
+                </td>
                 <td class="px-4 py-2">
                   <img src="../../assets/icons/more.svg" width="3%" class="float-right w-1" />
                 </td>
@@ -165,6 +183,9 @@
   </div>
 </template>
 <style scoped>
+.t-col{
+  color: #ff00c7;
+}
 .nxt{
   padding: 10px;
   background-color: #ff00c7;
