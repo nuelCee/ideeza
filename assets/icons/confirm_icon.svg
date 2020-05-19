@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_463" data-name="Rectangle 463" width="30" height="30" transform="translate(1560 230)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="confirm_icon" transform="translate(-1560 -230)" clip-path="url(#clip-path)">
+    <g id="checkmark-done-circle-outline" transform="translate(1556.538 226.538)">
+      <path id="Path_1242" data-name="Path 1242" d="M32.308,18.462A13.846,13.846,0,1,0,18.462,32.308,13.85,13.85,0,0,0,32.308,18.462Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.308"/>
+      <path id="Path_1243" data-name="Path 1243" d="M26.538,13.846l-8.068,9.231-3.458-3.462" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.308"/>
+      <line id="Line_33" data-name="Line 33" x1="3.458" y1="3.462" transform="translate(10.385 19.615)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.308"/>
+      <line id="Line_34" data-name="Line 34" x1="3.718" y2="4.255" transform="translate(18.329 13.846)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.308"/>
+    </g>
+  </g>
+</svg>

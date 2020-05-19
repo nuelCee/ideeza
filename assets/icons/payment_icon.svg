@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_462" data-name="Rectangle 462" width="30" height="30" transform="translate(1411 230)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="payment_icon" transform="translate(-1411 -230)" clip-path="url(#clip-path)">
+    <g id="card-outline" transform="translate(1408.857 227.857)">
+      <rect id="Rectangle_464" data-name="Rectangle 464" width="27.857" height="21.429" rx="3.75" transform="translate(3.214 6.429)" stroke-width="2.143" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <line id="Line_32" data-name="Line 32" x2="27.857" transform="translate(3.214 12.857)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="4.018"/>
+      <rect id="Rectangle_465" data-name="Rectangle 465" width="3.214" height="1.339" transform="translate(8.571 20.089)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="4.018"/>
+    </g>
+  </g>
+</svg>
