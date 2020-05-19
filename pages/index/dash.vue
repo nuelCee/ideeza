@@ -1,19 +1,19 @@
 <template>
-  <div class="mt-4 md:mt-0 md:ml-6 pt-20 w-full pr-6">
-    <div class="bg-white w-full h-full rounded-sm shadow-lg">
+  <div class="md:mt-0 md:ml-6 pt-20 w-full pr-3 pl-3 md:pr-6 md:pl-0">
+    <div class="bg-white w-full h-full hidden md:block rounded-sm shadow-lg">
       <div class="md:flex w-full h-10 items-center justify-center py-12 flow">
-        <div style="transform: translateY(15%);" class="flex flex-col w-10 items-center">
+        <div style="transform: translateY(15%);" class="flex flex-col w-2 md:w-10 items-center">
           <div
-            class="bg-black h-12 w-12 rounded-full act cirlc items-center flex flex-col justify-center"
+            class="bg-black h-6 w-6 md:h-12 md:w-12 rounded-full act cirlc items-center flex flex-col justify-center"
           >
             <img src="../../assets/icons/overview_icon.svg" />
           </div>
           <div class="act_text flow_text">Overview</div>
         </div>
-        <div class="h-2 w-20 bg-black rect"></div>
+        <div class="h-1 w-10 md:h-2 md:w-20 bg-black rect"></div>
         <div style="transform: translateY(15%);" class="flex flex-col w-10 items-center">
           <div
-            class="bg-black h-12 w-12 rounded-full cirlc items-center flex flex-col justify-center"
+            class="bg-black h-6 w-6 md:h-12 md:w-12 rounded-full cirlc items-center flex flex-col justify-center"
           >
             <img src="../../assets/icons/cart_white.svg" />
           </div>
@@ -64,14 +64,14 @@
         <br />
         <br />
         <hr />
-        <div class="p-3">
+        <div class="p-3 overflow-auto">
           <table class="table-fixed w-full">
             <thead>
               <tr class="text-left">
                 <th class="w-1 pr-10 py-2">
                   <div class="w-4 h-4 border-2 rounded-sm"></div>
                 </th>
-                <th class="w-1/4 px-4 py-2">Product Name</th>
+                <th class="md:w-1/4 md:px-4 md:py-2">Product Name</th>
                 <th class="w-1/4 px-4 py-2">Category</th>
                 <th class="w-1/4 px-4 py-2">Size</th>
                 <th class="w-1/8 px-4 py-2">Quantity</th>
@@ -157,6 +157,11 @@
   </div>
 </template>
 <style scoped>
+@media only screen and (max-width: 600px) {
+.cirlc img {
+  transform: scale(0.5)!important;
+}
+}
 table {
   font-size: 12px;
 }
