@@ -81,7 +81,7 @@
               </tr>
             </thead>
             <tbody>
-              <item v-for="(num, index) in 2" src="_nuxt/assets/icons/car_pic.svg" :key="index" />
+              <item v-for="(num, index) in 2" src=".../../assets/icons/car_pic.svg" :key="index" />
             </tbody>
           </table>
         </div>
@@ -107,7 +107,7 @@
               </tr>
             </thead>
             <tbody>
-              <item src="_nuxt/assets/icons/car_pic.svg" :key="index" />
+              <item />
             </tbody>
           </table>
         </div>

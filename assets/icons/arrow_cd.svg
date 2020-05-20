@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111.622" height="104.454" viewBox="0 0 111.622 104.454">
+  <g id="arrow_cd" transform="translate(111.622 0.799) rotate(90)">
+    <g id="arrow" transform="translate(0 0)">
+      <g id="Group_3100" data-name="Group 3100" transform="translate(0 0)">
+        <path id="Path_1257" data-name="Path 1257" d="M103.092,13.263l0,0L93.057,23.249a1.92,1.92,0,0,1-2.709-2.722l6.736-6.7H1.92a1.92,1.92,0,0,1,0-3.84H97.084l-6.736-6.7A1.92,1.92,0,0,1,93.057.559l10.033,9.984,0,0A1.922,1.922,0,0,1,103.092,13.263Z"/>
+      </g>
+    </g>
+    <line id="Line_38" data-name="Line 38" x2="96.821" transform="translate(1.701 109.122) rotate(-90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+  </g>
+</svg>

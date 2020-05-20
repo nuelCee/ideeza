@@ -53,4 +53,10 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+.t-col{
+  color: #ff00c7;
+}
+.pointer{
+  cursor: pointer;
+}
 </style>

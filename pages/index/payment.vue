@@ -1,8 +1,9 @@
 <template>
   <div class="md:mt-0 md:ml-6 pt-20 w-full pr-3 pl-3 md:pr-6 md:pl-0">
-    <modal v-if="showModal" :show="show" :type="modalType" />
     <div class="bg-white w-full h-full pb-6 md:block rounded-sm shadow-lg">
-      <div class="flex md:flex w-full h-10 items-center justify-center py-0 p-6 pt-10 md:py-12 flow">
+      <div
+        class="flex md:flex w-full h-10 items-center justify-center py-0 p-6 pt-10 md:py-12 flow"
+      >
         <div style="transform: translateY(15%);" class="flex flex-col w-6 md:w-10 items-center">
           <div
             class="bg-black h-12 w-12 rounded-full cirlc items-center flex flex-col justify-center"
@@ -14,11 +15,11 @@
         <div class="h-2 w-20 bg-black rect"></div>
         <div style="transform: translateY(15%);" class="flex flex-col w-10 items-center">
           <div
-            class="bg-black h-12 w-12 rounded-full act cirlc items-center flex flex-col justify-center"
+            class="bg-black h-12 w-12 rounded-full cirlc items-center flex flex-col justify-center"
           >
             <img src="../../assets/icons/cart_white.svg" />
           </div>
-          <div class="act_text flow_text">Cart</div>
+          <div class="flow_text">Cart</div>
         </div>
         <div class="h-2 w-20 bg-black rect"></div>
         <div style="transform: translateY(15%);" class="flex flex-col w-10 items-center">
@@ -41,11 +42,11 @@
         <div class="h-2 w-20 bg-black rect"></div>
         <div style="transform: translateY(15%);" class="flex flex-col w-10 items-center">
           <div
-            class="bg-black h-12 w-12 rounded-full cirlc items-center flex flex-col justify-center"
+            class="bg-black h-12 w-12 act rounded-full cirlc items-center flex flex-col justify-center"
           >
             <img src="../../assets/icons/payment_icon.svg" />
           </div>
-          <div class="flow_text">Payment</div>
+          <div class="act_text flow_text">Payment</div>
         </div>
         <div class="h-2 w-20 bg-black rect"></div>
         <div style="transform: translateY(15%);" class="flex flex-col w-10 items-center">
@@ -57,83 +58,48 @@
           <div class="flow_text">Confirmation</div>
         </div>
       </div>
-      <div class="w-full h-10 px-10 md:mt-6 mt-20">
-        <div class="float-right">
-          <div class="float-left mr-2 text-sm p-1">Optimize by:</div>
-          <select class="text-sm border p-1">
-            <option>Factory Cost</option>
-            <option>Delivery Cost</option>
-            <option>All Costs</option>
-            <option>Factory Time</option>
-            <option>Delivery Time</option>
-            <option>All Time</option>
-          </select>
-        </div>
-      </div>
       <div class="p-5 pt-20 md:p-10">
-        <div class="w-full">
-          <span class="float-left text-sm md:text-base font-bold">Lamborghini Aventado and Something</span>
-          <img src="../../assets/icons/settings_icon.svg" class="float-right" width="15px" />
-        </div>
-        <br />
-        <br />
-        <hr />
-        <div class="p-3 overflow-x-scroll md:overflow-auto table_con">
-          <table class="table-fixed w-full">
-            <thead>
-              <tr class="text-left">
-                <th class="w-1 pr-10 py-2">
-                  <div class="w-4 h-4 border-2 rounded-sm"></div>
-                </th>
-                <th class="w-56 md:w-1/4 md:px-4 md:py-2">Product Name</th>
-                <th class="w-56 md:w-1/4 px-4 py-2">Category</th>
-                <th class="w-56 md:w-1/4 px-4 py-2">Size</th>
-                <th class="w-56 md:w-1/6 px-4 py-2">Quantity</th>
-                <th class="w-1/8 md:w-1/8 px-4 py-2">Cost</th>
-                <th class="w-56 md:w-1/6 py-2"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <itemCart
-                v-for="(num, index) in 2"
-                :show="show"
-                :key="index"
-              />
-            </tbody>
-          </table>
-        </div>
-        <div class="w-full mt-10 md:mt-0">
-          <span class="float-left text-sm md:text-base font-bold">Lamborghini Aventado and Something</span>
-          <img src="../../assets/icons/settings_icon.svg" class="float-right" width="15px" />
-        </div>
-        <br />
-        <br />
-        <hr />
-        <div class="p-3 overflow-x-scroll md:overflow-auto table_con">
-          <table class="table-fixed w-full">
-            <thead>
-              <tr class="text-left">
-                <th class="w-1 pr-10 py-2">
-                  <div class="w-4 h-4 border-2 rounded-sm"></div>
-                </th>
-                <th class="w-56 md:w-1/4 md:px-4 md:py-2">Product Name</th>
-                <th class="w-56 md:w-1/4 px-4 py-2">Category</th>
-                <th class="w-56 md:w-1/4 px-4 py-2">Size</th>
-                <th class="w-56 md:w-1/6 px-4 py-2">Quantity</th>
-                <th class="w-1/8 md:w-1/8 px-4 py-2">Cost</th>
-                <th class="w-56 md:w-1/6 py-2"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <itemCart src="_nuxt/assets/icons/car_pic.svg" :key="index" />
-            </tbody>
-          </table>
-        </div>
-        <div class="w-full font-bold mt-10">
-          <span>
-            Total Cost
-            <span class="t-col">$45,000</span>
-          </span>
+        <div
+          class="bg-grey h-screen md:px-48 py-20 w-full rounded-sm"
+          style="background-color:#f6f6f6"
+        >
+          <div class="flex justify-between md:w-3/4">
+            <span class="text-sm">Choose Payment Method:</span>
+            <img src="../../assets/icons/Visa_Inc._logo.svg" class="w-10" />
+            <img src="../../assets/icons/Mastercard-logo.svg" class="w-10" />
+            <img src="../../assets/icons/PayPal.svg" class="w-16" />
+          </div>
+          <div class="text-center md:flex justify-between mt-10">
+            <div>
+              <label class="text-sm">First name</label>
+              <br />
+              <input type="text" class="h-8 w-64 border" />
+            </div>
+            <div>
+              <label class="text-sm">Last name</label>
+              <br />
+              <input type="text" class="h-8 w-64 border" />
+            </div>
+          </div>
+          <div class="text-center md:flex justify-between mt-4">
+          <div>
+            <div>
+              <label>End Date</label>
+              <br />
+              <select class="h-8 border">
+                <option>mm</option>
+              </select>
+              <select class="h-8 border">
+                <option>yyyy</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label class="text-sm">CVV</label>
+            <br />
+            <input type="text" class="h-8 w-64 border" />
+          </div>
+          </div>
         </div>
         <div class="w-full mt-10 flex items-center justify-between">
           <div class="text-sm nxt">
@@ -153,31 +119,6 @@
     </div>
   </div>
 </template>
-<script>
-import itemCart from '../../components/item_cart'
-import modal from '../../components/manuModa'
-
-export default {
-  data() {
-    return {
-      showModal: false,
-      modalType: "",
-    }
-  },
-  components: {
-    itemCart,
-    modal
-  },
-  methods: {
-    show(type) {
-      if(["shipping","manufacturer"].includes(type)){
-        this.modalType = type;
-      }
-      this.showModal = !this.showModal
-    }
-  }
-}
-</script>
 <style scoped>
 .moda {
   backdrop-filter: blur(3px);

@@ -4,7 +4,7 @@
       <div class="w-4 h-4 border-2 rounded-sm"></div>
     </td>
     <td class="px-4 py-2 flex items-center">
-      <img :src="src" width="20%" class="float-left" />
+      <img src="../assets/icons/car_pic.svg" width="20%" class="float-left" />
       <div class="ml-3">Lamboghini</div>
     </td>
     <td class="px-4 py-2">Electronics, Cover</td>
@@ -31,10 +31,10 @@
         <span class="t-col">Project Details</span>
         <br />
         <br />
-        <span>Edit choosen manufacture</span>
+        <span @click="show('manufacturer')" class="pointer">Edit choosen manufacture</span>
         <br />
         <br />
-        <span>Edit shipping method</span>
+        <span @click="show('shipping')" class="pointer">Edit shipping method</span>
         <br />
         <br />
         <span>Delete</span>
@@ -50,11 +50,15 @@ export default {
     }
   },
   props: {
-    src: String
+    src: String,
+    show: Function,
   }
 }
 </script>
 <style scoped>
+.pointer{
+  cursor: pointer;
+}
 .t-col {
   color: #ff00c7;
 }

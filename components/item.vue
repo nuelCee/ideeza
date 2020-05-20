@@ -1,10 +1,10 @@
 <template>
-    <tr>
+   <tr>
       <td>
         <div class="w-4 h-4 border-2 rounded-sm"></div>
       </td>
       <td class="px-4 py-2 flex items-center">
-        <img :src="src" width="20%" class="float-left" />
+        <img src="../assets/icons/car_pic.svg" width="20%" class="float-left" />
         <div class="ml-3">Lamboghini</div>
       </td>
       <td class="px-4 py-2">Electronics, Cover</td>
@@ -16,7 +16,6 @@
           <div class="mr-4 ml-4 text-lg t-col">-</div>
         </div>
       </td>
-        <td class="px-4 py-2">$20,000</td>
       <td class="px-4 py-2">
         <img @click="showMore = !showMore" src="../assets/icons/more.svg" width="3%" class="float-right w-1 opts" />
         <div v-if="showMore" class="bg-white p-2 md:mt-6 md:ml-6 md:absolute shadow-md rounded-md opte">
